@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NavDrawerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { _  ->
+                Scaffold(modifier = Modifier.fillMaxSize()) { _ ->
                     NavDrawer()
                 }
             }
